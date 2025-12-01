@@ -6,6 +6,9 @@ const alert = function (){
   console.log("Hi")
 }
 
+const alert2 = function(){
+  console.log("hii")
+}
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 }   );
